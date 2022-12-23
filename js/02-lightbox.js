@@ -11,7 +11,7 @@ const markupLightbox = galleryItems
     <img src="${preview}" data-source = "${original}" alt="${description}" class="gallery__image">
 </a></li>`)
 .join('');
-gallery.insertAdjacentHTML('beforeend', markupLigthbox);
+gallery.insertAdjacentHTML('beforeend', markupLightbox);
 
 new SimpleLightbox(".gallery a", {
     captionsData: `alt`,
